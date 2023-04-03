@@ -35,3 +35,11 @@ os.system('cls')
 
 print("Enter in the coefficients for a quadratic equation in the format:")
 print("  ax^2 + bx + c = 0")
+while True:
+  a = int(input("enter a number: "))
+  b = int(input("enter a number: "))
+  c = int(input("enter a number: "))
+
+  try:
+    
+  except:
