@@ -42,13 +42,15 @@ while True:
   c = (input("enter a number: "))
 
   try:
-        a = int(a)
-        b = int(b)
-        c = int(c)
+        a = float(a)
+        b = float(b)
+        c = float(c)
         try:
           d = (b**2)-(4 * a * c)
-          sol1 = (-b-c (d **0.5))/(2*a)  
-          sol2 = (-b+c (d**0.5))/(2*a)
+          sol1 = (-b + (d **0.5))/(2*a)  
+          sol2 = (-b - (d**0.5))/(2*a)
+          sol1 = round(sol1,2)
+          sol2 = round(sol2,2)
           print("the roots are " +str(sol1) +" and "+ str(sol2))
         except:
           print("there are no real roots")
